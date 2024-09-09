@@ -1,0 +1,2 @@
+export const decodeVinUrl = (id) => `https://vpic.nhtsa.dot.gov/api/vehicles/decodevin/${id}?format=json`;
+export const variablesUrl = 'https://vpic.nhtsa.dot.gov/api/vehicles/getvehiclevariablelist?format=json';
